@@ -1,0 +1,1435 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header>
+    <sap:Trace xmlns:sap="http://www.sap.com/webas/630/soap/features/runtime/tracing/">
+      <sap:TraceLevel>Error</sap:TraceLevel>
+      <sap:TraceContext>
+        <TRC_PATTERN>WSTEST</TRC_PATTERN>
+        <TRC_KEY>0050569061A71ED2AEF4F86356D57F55</TRC_KEY>
+        <TRC_ROOT_CTX_ID />
+        <TRC_SSID>UPP_92</TRC_SSID>
+        <TRC_USER>PI_INTF_USER</TRC_USER>
+        <TRC_TS>20130513083318</TRC_TS>
+        <TRC_COUNTER>99</TRC_COUNTER>
+        <TRC_EXTERN />
+        <TRC_REQBASED />
+        <TRC_PPVERS>0</TRC_PPVERS>
+      </sap:TraceContext>
+    </sap:Trace>
+    <wsrm:Sequence env:mustUnderstand="1" xmlns:wsrm="http://docs.oasis-open.org/ws-rx/wsrm/200702">
+      <wsrm:Identifier>urn:uuid:50c86bd7-f8c1-4c1f-8fb5-2cf7212991a1</wsrm:Identifier>
+      <wsrm:MessageNumber>1</wsrm:MessageNumber>
+    </wsrm:Sequence>
+    <wsrm:AckRequested xmlns:wsrm="http://docs.oasis-open.org/ws-rx/wsrm/200702">
+      <wsrm:Identifier>urn:uuid:50c86bd7-f8c1-4c1f-8fb5-2cf7212991a1</wsrm:Identifier>
+    </wsrm:AckRequested>
+    <wsa:To env:mustUnderstand="true" xmlns:wsa="http://www.w3.org/2005/08/addressing">http://192.168.1.71:80/SapIntegrationServiceTest/SapIntegrationService.svc</wsa:To>
+    <wsa:From xmlns:wsa="http://www.w3.org/2005/08/addressing">
+      <wsa:Address>http://www.w3.org/2005/08/addressing/anonymous</wsa:Address>
+    </wsa:From>
+    <wsa:ReplyTo xmlns:wsa="http://www.w3.org/2005/08/addressing">
+      <wsa:Address>http://www.w3.org/2005/08/addressing/anonymous</wsa:Address>
+    </wsa:ReplyTo>
+    <wsa:FaultTo xmlns:wsa="http://www.w3.org/2005/08/addressing">
+      <wsa:Address>http://www.w3.org/2005/08/addressing/anonymous</wsa:Address>
+    </wsa:FaultTo>
+    <wsa:Action env:mustUnderstand="true" xmlns:wsa="http://www.w3.org/2005/08/addressing">urn://ulmart.ru/pi/ULTIMA.ERP/ISapIntegrationService/LoadGoodsTransferBarcodes</wsa:Action>
+    <wsa:MessageID xmlns:wsa="http://www.w3.org/2005/08/addressing">urn:uuid:00505690-61a7-1ed2-aef4-f815a4313f55</wsa:MessageID>
+  </env:Header>
+  <env:Body>
+    <ns1:LoadGoodsTransferBarcodes xmlns:ns1="urn://ulmart.ru/pi/ULTIMA.ERP">
+      <ns1:documentNo>3000003025</ns1:documentNo>
+      <ns1:processDate>2013-05-06T00:00:00</ns1:processDate>
+      <ns1:officeId>S281</ns1:officeId>
+      <ns1:warehouseFromId>0002</ns1:warehouseFromId>
+      <ns1:goodsTransferItems>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>387539</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>430866</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>453347</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>383871</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>418191</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>415727</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>434037</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>338374</ns2:goodId>
+          <ns2:quantity>2</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>466614</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>388338</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>416274</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>469698</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>469669</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>469665</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>469465</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>469462</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>469458</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>469453</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>466392</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>462136</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>461629</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>460716</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>458681</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>457326</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>454671</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>454460</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>447628</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>443486</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>431177</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>425658</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>422312</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>246521</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>337350</ns2:goodId>
+          <ns2:quantity>24</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>393262</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>267229</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>352212</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>325022</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>334514</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>248014</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>243205</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>201747</ns2:goodId>
+          <ns2:quantity>2</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>317160</ns2:goodId>
+          <ns2:quantity>2</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>287388</ns2:goodId>
+          <ns2:quantity>6</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>273897</ns2:goodId>
+          <ns2:quantity>2</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>127397</ns2:goodId>
+          <ns2:quantity>2</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>270954</ns2:goodId>
+          <ns2:quantity>2</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>284654</ns2:goodId>
+          <ns2:quantity>2</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>371113</ns2:goodId>
+          <ns2:quantity>2</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>209416</ns2:goodId>
+          <ns2:quantity>3</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>282081</ns2:goodId>
+          <ns2:quantity>3</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>293642</ns2:goodId>
+          <ns2:quantity>2</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>116672</ns2:goodId>
+          <ns2:quantity>4</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>229227</ns2:goodId>
+          <ns2:quantity>3</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>240075</ns2:goodId>
+          <ns2:quantity>2</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>313822</ns2:goodId>
+          <ns2:quantity>2</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>247502</ns2:goodId>
+          <ns2:quantity>3</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>219108</ns2:goodId>
+          <ns2:quantity>4</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>251956</ns2:goodId>
+          <ns2:quantity>4</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>214661</ns2:goodId>
+          <ns2:quantity>3</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>308564</ns2:goodId>
+          <ns2:quantity>2</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>225426</ns2:goodId>
+          <ns2:quantity>2</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>420130</ns2:goodId>
+          <ns2:quantity>5</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>364727</ns2:goodId>
+          <ns2:quantity>5</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>219538</ns2:goodId>
+          <ns2:quantity>2</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>243508</ns2:goodId>
+          <ns2:quantity>2</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>367277</ns2:goodId>
+          <ns2:quantity>2</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>330873</ns2:goodId>
+          <ns2:quantity>2</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>294526</ns2:goodId>
+          <ns2:quantity>6</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>242317</ns2:goodId>
+          <ns2:quantity>3</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>351349</ns2:goodId>
+          <ns2:quantity>3</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>350108</ns2:goodId>
+          <ns2:quantity>8</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>149022</ns2:goodId>
+          <ns2:quantity>6</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>180302</ns2:goodId>
+          <ns2:quantity>3</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>42967</ns2:goodId>
+          <ns2:quantity>4</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>216840</ns2:goodId>
+          <ns2:quantity>2</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>218256</ns2:goodId>
+          <ns2:quantity>10</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>366252</ns2:goodId>
+          <ns2:quantity>3</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>303389</ns2:goodId>
+          <ns2:quantity>3</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>249490</ns2:goodId>
+          <ns2:quantity>5</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>209942</ns2:goodId>
+          <ns2:quantity>2</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>263164</ns2:goodId>
+          <ns2:quantity>5</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>184884</ns2:goodId>
+          <ns2:quantity>3</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>184883</ns2:goodId>
+          <ns2:quantity>2</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>247145</ns2:goodId>
+          <ns2:quantity>2</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>206256</ns2:goodId>
+          <ns2:quantity>5</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>264912</ns2:goodId>
+          <ns2:quantity>2</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>350127</ns2:goodId>
+          <ns2:quantity>3</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>20020</ns2:goodId>
+          <ns2:quantity>3</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>284754</ns2:goodId>
+          <ns2:quantity>3</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>282185</ns2:goodId>
+          <ns2:quantity>2</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>353121</ns2:goodId>
+          <ns2:quantity>2</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>225942</ns2:goodId>
+          <ns2:quantity>7</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>214660</ns2:goodId>
+          <ns2:quantity>3</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>114048</ns2:goodId>
+          <ns2:quantity>1</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>210650</ns2:goodId>
+          <ns2:quantity>5</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>313703</ns2:goodId>
+          <ns2:quantity>2</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>362562</ns2:goodId>
+          <ns2:quantity>2</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>159006</ns2:goodId>
+          <ns2:quantity>4</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>190826</ns2:goodId>
+          <ns2:quantity>3</ns2:quantity>
+        </ns2:GoodsTransferItem>
+        <ns2:GoodsTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Kind>0</ns2:Kind>
+          <ns2:goodId>214802</ns2:goodId>
+          <ns2:quantity>3</ns2:quantity>
+        </ns2:GoodsTransferItem>
+      </ns1:goodsTransferItems>
+      <ns1:barcodesTransferItems>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>XC049130H</ns2:Barcode>
+          <ns2:GoodId>387539</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>430866</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>4301978</ns2:Barcode>
+          <ns2:GoodId>453347</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>S0150005444</ns2:Barcode>
+          <ns2:GoodId>383871</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>XC104379C</ns2:Barcode>
+          <ns2:GoodId>418191</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>D1N0CJ687158043</ns2:Barcode>
+          <ns2:GoodId>415727</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>SC17K41Z9DNCR</ns2:Barcode>
+          <ns2:GoodId>434037</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>25723LAC800204</ns2:Barcode>
+          <ns2:GoodId>338374</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>25723LAC800205</ns2:Barcode>
+          <ns2:GoodId>338374</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>C5RXWS1</ns2:Barcode>
+          <ns2:GoodId>466614</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>SC02JG129DR54</ns2:Barcode>
+          <ns2:GoodId>388338</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>SC02K95VWDNCV</ns2:Barcode>
+          <ns2:GoodId>416274</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>6660006223953</ns2:Barcode>
+          <ns2:GoodId>469698</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>6660006222932</ns2:Barcode>
+          <ns2:GoodId>469669</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>6660006223120</ns2:Barcode>
+          <ns2:GoodId>469665</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>6660002497792</ns2:Barcode>
+          <ns2:GoodId>469465</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>6660006224059</ns2:Barcode>
+          <ns2:GoodId>469462</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>469458</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>6660006223939</ns2:Barcode>
+          <ns2:GoodId>469453</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>867367011453284</ns2:Barcode>
+          <ns2:GoodId>466392</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>358216044579332</ns2:Barcode>
+          <ns2:GoodId>462136</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>6660007250712</ns2:Barcode>
+          <ns2:GoodId>461629</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>5050370917236</ns2:Barcode>
+          <ns2:GoodId>460716</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>6660015110060</ns2:Barcode>
+          <ns2:GoodId>458681</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>CCM0AD630485</ns2:Barcode>
+          <ns2:GoodId>457326</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>6660015033307</ns2:Barcode>
+          <ns2:GoodId>454671</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>869434017940199</ns2:Barcode>
+          <ns2:GoodId>454460</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>6660014835339</ns2:Barcode>
+          <ns2:GoodId>447628</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>00264229192080000274</ns2:Barcode>
+          <ns2:GoodId>443486</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>6909723172091</ns2:Barcode>
+          <ns2:GoodId>431177</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>358071042146299</ns2:Barcode>
+          <ns2:GoodId>425658</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>PC113810339</ns2:Barcode>
+          <ns2:GoodId>422312</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>246521</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>FBX7GS1</ns2:Barcode>
+          <ns2:GoodId>337350</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>8SX7GS1</ns2:Barcode>
+          <ns2:GoodId>337350</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>GQ7FGS1</ns2:Barcode>
+          <ns2:GoodId>337350</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>D5D4GS1</ns2:Barcode>
+          <ns2:GoodId>337350</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>77R4GS1</ns2:Barcode>
+          <ns2:GoodId>337350</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>4BR4GS1</ns2:Barcode>
+          <ns2:GoodId>337350</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1CR4GS1</ns2:Barcode>
+          <ns2:GoodId>337350</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>58R4GS1</ns2:Barcode>
+          <ns2:GoodId>337350</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>7CR4GS1</ns2:Barcode>
+          <ns2:GoodId>337350</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>78R4GS1</ns2:Barcode>
+          <ns2:GoodId>337350</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>4CR4GS1</ns2:Barcode>
+          <ns2:GoodId>337350</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>CCR4GS1</ns2:Barcode>
+          <ns2:GoodId>337350</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>GD7FGS1</ns2:Barcode>
+          <ns2:GoodId>337350</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>7Y7FGS1</ns2:Barcode>
+          <ns2:GoodId>337350</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>5T7FGS1</ns2:Barcode>
+          <ns2:GoodId>337350</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>55X7GS1</ns2:Barcode>
+          <ns2:GoodId>337350</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>2M7FGS1</ns2:Barcode>
+          <ns2:GoodId>337350</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>FHX7GS1</ns2:Barcode>
+          <ns2:GoodId>337350</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>HMLFGS1</ns2:Barcode>
+          <ns2:GoodId>337350</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>C9X7GS1</ns2:Barcode>
+          <ns2:GoodId>337350</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>JFK7GS1</ns2:Barcode>
+          <ns2:GoodId>337350</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>HT88GS1</ns2:Barcode>
+          <ns2:GoodId>337350</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>GHX7GS1</ns2:Barcode>
+          <ns2:GoodId>337350</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>D8K7GS1</ns2:Barcode>
+          <ns2:GoodId>337350</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>34798171</ns2:Barcode>
+          <ns2:GoodId>393262</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>34773376</ns2:Barcode>
+          <ns2:GoodId>267229</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>34877975</ns2:Barcode>
+          <ns2:GoodId>352212</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>35049708</ns2:Barcode>
+          <ns2:GoodId>325022</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>35049876</ns2:Barcode>
+          <ns2:GoodId>334514</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>34951903</ns2:Barcode>
+          <ns2:GoodId>248014</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>34995297</ns2:Barcode>
+          <ns2:GoodId>243205</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>201747</ns2:GoodId>
+          <ns2:Quantity>2</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>317160</ns2:GoodId>
+          <ns2:Quantity>2</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>287388</ns2:GoodId>
+          <ns2:Quantity>6</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>273897</ns2:GoodId>
+          <ns2:Quantity>2</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>127397</ns2:GoodId>
+          <ns2:Quantity>2</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001046639222</ns2:Barcode>
+          <ns2:GoodId>270954</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001018910380</ns2:Barcode>
+          <ns2:GoodId>270954</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>space</ns2:Barcode>
+          <ns2:GoodId>284654</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>AU3A1243001407</ns2:Barcode>
+          <ns2:GoodId>284654</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>371113</ns2:GoodId>
+          <ns2:Quantity>2</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>CCQ16350G3K</ns2:Barcode>
+          <ns2:GoodId>209416</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>CCQ16350G63</ns2:Barcode>
+          <ns2:GoodId>209416</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>CCQ16350G6A</ns2:Barcode>
+          <ns2:GoodId>209416</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>S2V0H3MW</ns2:Barcode>
+          <ns2:GoodId>282081</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>S2V0H4FH</ns2:Barcode>
+          <ns2:GoodId>282081</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>S2V0H49A</ns2:Barcode>
+          <ns2:GoodId>282081</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>293642</ns2:GoodId>
+          <ns2:Quantity>2</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>116672</ns2:GoodId>
+          <ns2:Quantity>4</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>229227</ns2:GoodId>
+          <ns2:Quantity>3</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>357842046940098</ns2:Barcode>
+          <ns2:GoodId>240075</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>357842046967448</ns2:Barcode>
+          <ns2:GoodId>240075</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>313822</ns2:GoodId>
+          <ns2:Quantity>2</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>7881121410951</ns2:Barcode>
+          <ns2:GoodId>247502</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>123501702</ns2:Barcode>
+          <ns2:GoodId>247502</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>124605630</ns2:Barcode>
+          <ns2:GoodId>247502</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>219108</ns2:GoodId>
+          <ns2:Quantity>4</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>251956</ns2:GoodId>
+          <ns2:Quantity>4</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>214661</ns2:GoodId>
+          <ns2:Quantity>3</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>CBM0AB235640</ns2:Barcode>
+          <ns2:GoodId>308564</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>CBM0AB288342</ns2:Barcode>
+          <ns2:GoodId>308564</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>S120Y21017163</ns2:Barcode>
+          <ns2:GoodId>225426</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>S120Y20021746</ns2:Barcode>
+          <ns2:GoodId>225426</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>420130</ns2:GoodId>
+          <ns2:Quantity>5</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>364727</ns2:GoodId>
+          <ns2:Quantity>5</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>219538</ns2:GoodId>
+          <ns2:Quantity>2</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>243508</ns2:GoodId>
+          <ns2:Quantity>2</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>367277</ns2:GoodId>
+          <ns2:Quantity>2</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>330873</ns2:GoodId>
+          <ns2:Quantity>2</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>294526</ns2:GoodId>
+          <ns2:Quantity>6</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>242317</ns2:GoodId>
+          <ns2:Quantity>3</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>351349</ns2:GoodId>
+          <ns2:Quantity>3</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001136651554</ns2:Barcode>
+          <ns2:GoodId>350108</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001146939369</ns2:Barcode>
+          <ns2:GoodId>350108</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001146939376</ns2:Barcode>
+          <ns2:GoodId>350108</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001146939383</ns2:Barcode>
+          <ns2:GoodId>350108</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001146939451</ns2:Barcode>
+          <ns2:GoodId>350108</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001162309559</ns2:Barcode>
+          <ns2:GoodId>350108</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001091225807</ns2:Barcode>
+          <ns2:GoodId>350108</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001167106511</ns2:Barcode>
+          <ns2:GoodId>350108</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001117788989</ns2:Barcode>
+          <ns2:GoodId>149022</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001046671390</ns2:Barcode>
+          <ns2:GoodId>149022</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001046625287</ns2:Barcode>
+          <ns2:GoodId>149022</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001046625294</ns2:Barcode>
+          <ns2:GoodId>149022</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001046625300</ns2:Barcode>
+          <ns2:GoodId>149022</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001046625317</ns2:Barcode>
+          <ns2:GoodId>149022</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>180302</ns2:GoodId>
+          <ns2:Quantity>3</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>42967</ns2:GoodId>
+          <ns2:Quantity>4</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>216840</ns2:GoodId>
+          <ns2:Quantity>2</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001117773664</ns2:Barcode>
+          <ns2:GoodId>218256</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001162254750</ns2:Barcode>
+          <ns2:GoodId>218256</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001175101874</ns2:Barcode>
+          <ns2:GoodId>218256</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001175101898</ns2:Barcode>
+          <ns2:GoodId>218256</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001175101904</ns2:Barcode>
+          <ns2:GoodId>218256</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001175101911</ns2:Barcode>
+          <ns2:GoodId>218256</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001175101928</ns2:Barcode>
+          <ns2:GoodId>218256</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001175101935</ns2:Barcode>
+          <ns2:GoodId>218256</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001175101942</ns2:Barcode>
+          <ns2:GoodId>218256</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001175101959</ns2:Barcode>
+          <ns2:GoodId>218256</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>366252</ns2:GoodId>
+          <ns2:Quantity>3</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>CCM0AJ026324</ns2:Barcode>
+          <ns2:GoodId>303389</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>CCM0AJ150713</ns2:Barcode>
+          <ns2:GoodId>303389</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>C6M0AJ133500</ns2:Barcode>
+          <ns2:GoodId>303389</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>249490</ns2:GoodId>
+          <ns2:Quantity>5</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>WX31EA198637</ns2:Barcode>
+          <ns2:GoodId>209942</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>WX81A82L8017</ns2:Barcode>
+          <ns2:GoodId>209942</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>263164</ns2:GoodId>
+          <ns2:Quantity>5</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>184884</ns2:GoodId>
+          <ns2:Quantity>3</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>184883</ns2:GoodId>
+          <ns2:Quantity>2</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001175330977</ns2:Barcode>
+          <ns2:GoodId>247145</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001175331035</ns2:Barcode>
+          <ns2:GoodId>247145</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>12B85208211</ns2:Barcode>
+          <ns2:GoodId>206256</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>12B85208201</ns2:Barcode>
+          <ns2:GoodId>206256</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>12B85208203</ns2:Barcode>
+          <ns2:GoodId>206256</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>12876900220</ns2:Barcode>
+          <ns2:GoodId>206256</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>12B85208866</ns2:Barcode>
+          <ns2:GoodId>206256</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>264912</ns2:GoodId>
+          <ns2:Quantity>2</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>350127</ns2:GoodId>
+          <ns2:Quantity>3</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>20020</ns2:GoodId>
+          <ns2:Quantity>3</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>284754</ns2:GoodId>
+          <ns2:Quantity>3</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>282185</ns2:GoodId>
+          <ns2:Quantity>2</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>DL351C5000038</ns2:Barcode>
+          <ns2:GoodId>353121</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>DL351C5000039</ns2:Barcode>
+          <ns2:GoodId>353121</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>4897038320752</ns2:Barcode>
+          <ns2:GoodId>225942</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>2012041806964</ns2:Barcode>
+          <ns2:GoodId>225942</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>2012041806960</ns2:Barcode>
+          <ns2:GoodId>225942</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>2012041807513</ns2:Barcode>
+          <ns2:GoodId>225942</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>2012041807759</ns2:Barcode>
+          <ns2:GoodId>225942</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>2012041807415</ns2:Barcode>
+          <ns2:GoodId>225942</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>2012041807430</ns2:Barcode>
+          <ns2:GoodId>225942</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>214660</ns2:GoodId>
+          <ns2:Quantity>3</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>114048</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>210650</ns2:GoodId>
+          <ns2:Quantity>5</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>313703</ns2:GoodId>
+          <ns2:Quantity>2</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>T8C124201004</ns2:Barcode>
+          <ns2:GoodId>362562</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>T8C124201322</ns2:Barcode>
+          <ns2:GoodId>362562</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001191387498</ns2:Barcode>
+          <ns2:GoodId>159006</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001118584382</ns2:Barcode>
+          <ns2:GoodId>159006</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001118584399</ns2:Barcode>
+          <ns2:GoodId>159006</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001118584405</ns2:Barcode>
+          <ns2:GoodId>159006</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode />
+          <ns2:GoodId>190826</ns2:GoodId>
+          <ns2:Quantity>3</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001191930700</ns2:Barcode>
+          <ns2:GoodId>214802</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001191930854</ns2:Barcode>
+          <ns2:GoodId>214802</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+        <ns2:BarcodesTransferItem xmlns:ns2="http://schemas.datacontract.org/2004/07/Ultima.SapIntegration">
+          <ns2:Barcode>1001191930878</ns2:Barcode>
+          <ns2:GoodId>214802</ns2:GoodId>
+          <ns2:Quantity>1</ns2:Quantity>
+        </ns2:BarcodesTransferItem>
+      </ns1:barcodesTransferItems>
+    </ns1:LoadGoodsTransferBarcodes>
+  </env:Body>
+</env:Envelope>
